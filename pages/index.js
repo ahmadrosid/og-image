@@ -22,10 +22,10 @@ export default function Home() {
     <>
       <Head>
       </Head>
-      <LinearGradient option={5}>
+      <LinearGradient option={4}>
         <div className="px-20 w-full">
-          <h1 className="text-[142px] leading-tight pb-6 font-bold text-white">How to structure a big project in Rust</h1>
-          <p className='text-4xl text-white'>Working with cargo workspaces.</p>
+          <h1 className="text-[142px] leading-tight pb-6 font-bold text-white">WebSocket for Productivity in Rust</h1>
+          <p className='text-4xl text-white'>Building developmet server with actix websocket.</p>
           <div className='flex mt-36 items-center gap-6'>
             <img className="w-28 outline rounded-full outline-violet-300" src="/profile.png" />
             <p className='text-4xl text-white'>
