@@ -6,7 +6,7 @@ const LinearGradient = ({ option, children }) => {
     "font-sans flex items-center justify-center p-12 bg-gradient-to-r from-sky-500 to-indigo-500 w-[1920px] h-[1080px] relative",
     "font-sans flex items-center justify-center p-12 bg-gradient-to-r from-violet-500 to-fuchsia-500 w-[1920px] h-[1080px] relative",
     "font-sans flex items-center justify-center p-12 bg-gradient-to-r from-purple-500 to-pink-500 w-[1920px] h-[1080px] relative",
-    "font-sans flex items-center justify-center p-12 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-[1920px] h-[1080px] relative",
+    "font-sans flex items-center justify-center p-12 bg-gradient-to-r from-indigo-500 via-sky-500 to-teal-400 w-[1920px] h-[1080px] relative",
     "font-sans flex items-center justify-center p-12 bg-gradient-to-r from-pink-500 to-yellow-500 w-[1920px] h-[1080px] relative",
   ]
 
