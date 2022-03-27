@@ -23,13 +23,12 @@ export default function Home() {
     <>
       <Head>
       </Head>
-      <div className='invisible bg-'></div>
-      <LinearGradient option={6}>
+      <LinearGradient option={1}>
         <div className="px-20 w-full">
           <h1 className="text-[142px] leading-tight pb-6 font-bold text-white">
-            Rust parsing dynamic JSON
+            What skills you <span className='text-orange-300 leading-none -rotate-12 inline-block'>Need</span> to become a <span className='text-white bg-sky-900 inline-block px-6 pt-4 my-2'>Backend</span> <span className='text-white bg-sky-900 inline-block px-6 pt-4 my-2'>Developer?</span>
           </h1>
-          <p className='text-6xl text-white'>Deep dive serde json.</p>
+          <p className='text-6xl pt-8 text-white'>Backend Developer Roadmap.</p>
           <div className='flex mt-36 items-center gap-6'>
             <img className="w-28 outline rounded-full outline-violet-300" src="/profile.png" />
             <div className='text-4xl text-white space-y-2'>
