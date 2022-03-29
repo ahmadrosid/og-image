@@ -2,7 +2,8 @@
 
 I'm using this to generate images for my blog [ahmadrosid.com](https://www.ahmadrosid.com)
 
-## Sample
-![cargo-workspace](/potrait.png)
+## Sample landscape
+![landscape](/landscape.png)
 
-![backend-developer-roadmap](/landscape.png)
+## Sample potrait
+![potrait](/potrait.png)
