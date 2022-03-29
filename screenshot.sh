@@ -2,6 +2,13 @@
 
 # firefox -v
 # Mozilla Firefox 98.0.2
+DEV_PORT="$(lsof -ti tcp:3000)"
+
+if [ -z "${DEV_PORT}" ]
+then
+    echo "start dev server"
+    yarn dev &
+fi
 
 if [ "$1" == "potrait" ]
 then
@@ -11,3 +18,5 @@ else
     firefox --screenshot http://localhost:3000
     mv screenshot.png landscape.png
 fi
+
+kill $DEV_PORT
