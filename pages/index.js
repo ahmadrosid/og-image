@@ -22,6 +22,7 @@ export default function Home() {
   return (
     <>
       <Head>
+        <title>What skills you Need to become a Backend Developer?</title>
       </Head>
       <LinearGradient option={1}>
         <div className="px-20 w-full">
