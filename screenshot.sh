@@ -3,11 +3,9 @@
 # firefox -v
 # Mozilla Firefox 98.0.2
 DEV_PORT="$(lsof -ti tcp:3000)"
-SHOULD_STOP=1
 
 if [ -z "${DEV_PORT}" ]
 then
-    unset SHOULD_STOP
     echo "starting dev server"
     yarn dev &>/dev/null & disown;
 fi
