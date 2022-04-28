@@ -1,8 +1,13 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 # firefox -v
 # Mozilla Firefox 98.0.2
 DEV_PORT="$(lsof -ti tcp:3000)"
+
+if [[ "$OSTYPE" =~ ^darwin ]]; then
+    export PATH="/Applications/Firefox.app/Contents/MacOS/:$PATH"
+    alias firefox=firefox-bin
+fi
 
 if [ -z "${DEV_PORT}" ]
 then
